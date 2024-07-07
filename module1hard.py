@@ -7,3 +7,4 @@ average = [(sum(grades[0]) / len(grades[0])), (sum(grades[1]) / len(grades[1])),
 zipped = zip(students_, average)
 zipped_ = dict(zipped)
 print(zipped_)
+
