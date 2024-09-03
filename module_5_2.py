@@ -21,7 +21,6 @@ class House:
         return f'Название: "{self.name}", кол-во этажей: {self.nFloors}.'
 
 def main():
-    # №1
     print('ДЗ-1:')
     h1 = House('ЖК Горский', 18)
     h2 = House('Домик в деревне', 2)
@@ -29,7 +28,6 @@ def main():
     h1.go_to(5)
     h2.go_to(10)
     h3.go_to(-2)
-    # №2
     print(f'ДЗ-2:\n{h1}\n{h2}\n{h3}')
     print(len(h1), len(h2), len(h3))
 
